@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+li {
+  list-style: none;
+}
+
+.game-page-bg-container {
+  background-color: #223a5f;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.game-page-bg-container > div {
+  width: 95%;
+  height: 100%;
+  padding: 15px;
+  font-family: 'Bree Serif';
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.game-choices-text-score-container {
+  width: 100%;
+  color: white;
+  border: 1px solid white;
+  border-radius: 7px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.game-choices-text-container {
+  padding: 0px;
+  margin: 0px;
+}
+
+.game-choices-text-container > h1 {
+  font-size: 18px;
+  margin: 0px;
+}
+
+.score-container {
+  height: fit-content;
+  background-color: white;
+  color: #223a5f;
+  text-align: center;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.score-text {
+  margin: 0px;
+  font-size: 18px;
+}
+
+.game-page-choices-ul-container {
+  padding: 0px;
+  margin: 0px;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 10%;
+}
+
+.game-page-choice {
+  width: 50%;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.game-page-choice > button {
+  background-color: transparent;
+  border: 0px;
+  cursor: pointer;
+  width: fit-content;
+  padding: 0px;
+  outline: none;
+}
+
+.choice-image {
+  width: 100px;
+}
+
+.rules-img {
+  width: 100%;
+}
+
+.close-icon {
+  font-size: 15px;
+}
+
+@media screen and (min-width: 768px) {
+  .game-page-bg-container > div {
+    padding-left: 20%;
+    padding-right: 20%;
+  }
+
+  .game-choices-text-score-container {
+    width: 100%;
+    border: 2px solid white;
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 10px;
+  }
+
+  .game-choices-text-container {
+    font-size: 15px;
+    padding: 0px;
+    padding-top: 3px;
+  }
+
+  .score-container {
+    padding: 13px;
+    border-radius: 10px;
+  }
+
+  .game-score-para {
+    margin-top: 4px;
+  }
+
+  .game-page-choices-ul-container {
+    margin-top: 15%;
+  }
+
+  .game-page-choice {
+    width: 50%;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  .choice-image {
+    width: 110px;
+  }
+}
