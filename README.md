@@ -1,4 +1,5 @@
-In this project, let's build a **Rock Paper Scissors** by applying the concepts we have learned till now.
+# 🎮 Rock Paper Scissors Game
+An interactive Rock Paper Scissors game built with **React JS**. Challenge the computer, view results, and track your score — all in a clean, responsive UI.
 
 ### Refer to the image below:
 
@@ -8,17 +9,24 @@ In this project, let's build a **Rock Paper Scissors** by applying the concepts 
 </div>
 <br/>
 
-### Design Files
+## 🚀 Features
 
-<details>
-<summary>Click to view</summary>
+- 🧠 Randomized opponent choice
+- 📈 Score tracking (Win ➕1, Lose ➖1, Draw ➖0)
+- 🎲 Game logic based on standard rules
+- 🖼️ Game result view with both choices shown
+- 📜 Rules popup modal using `reactjs-popup`
+- 🔁 Play Again functionality
+- 📱 Responsive design for all screen sizes
 
-- [Extra Small (Size < 576px) and Small (Size >= 576px)](https://assets.ccbp.in/frontend/content/react-js/rock-paper-scissors-sm-outputs.png)
-- [Medium (Size >= 768px), Large (Size >= 992px) and Extra Large (Size >= 1200px) - Playing View](https://assets.ccbp.in/frontend/content/react-js/rock-paper-scissors-lg-playing-output.png)
-- [Medium (Size >= 768px), Large (Size >= 992px) and Extra Large (Size >= 1200px) - Game Results View](https://assets.ccbp.in/frontend/content/react-js/rock-paper-scissors-lg-game-results-output.png)
-- [Medium (Size >= 768px), Large (Size >= 992px) and Extra Large (Size >= 1200px) - Game Rules View](https://assets.ccbp.in/frontend/content/react-js/rock-paper-scissors-lg-rules-output.png)
 
-</details>
+## 🧪 Tech Stack
+
+- ⚛️ React JS
+- 🎨 Styled Components
+- 📦 reactjs-popup
+- 💅 Bree Serif & Roboto fonts
+
 
 ### Set Up Instructions
 
@@ -99,35 +107,6 @@ The app must have the following functionalities
 
 </details>
 
-### Important Note
-
-<details>
-<summary>Click to view</summary>
-
-<br/>
-
-- You can use **reactjs-popup** for displaying the modal
-- `RiCloseLine` icon from `react icons` can be used for the **close** button at `React Popup`
-
-**The following instructions are required for the tests to pass**
-
-- **Styled Components** should be used for styling purposes
-- The Page should consist of three HTML button elements with `data-testid` attribute values as **rockButton**, **scissorsButton** and **paperButton** respectively
-- In Game Results View, the page should consist of an HTML image element with alt as **your choice** and src as URL for your choice image
-- In Game Results View, the page should consist of an HTML image element with alt as **opponent choice** and src as URL for opponent choice image
-- **Roboto** should be applied as `font-family` for **Score** value
-
-</details>
-
-### Resources
-
-<details>
-<summary>Image URLs</summary>
-
-- [https://assets.ccbp.in/frontend/react-js/rock-paper-scissor/rules-image.png](https://assets.ccbp.in/frontend/react-js/rock-paper-scissor/rules-image.png) alt should be **rules**
-
-</details>
-
 <details>
 <summary>Colors</summary>
 
@@ -146,10 +125,10 @@ The app must have the following functionalities
 
 </details>
 
-> ### _Things to Keep in Mind_
->
-> - All components you implement should go in the `src/components` directory.
-> - Don't change the component folder names as those are the files being imported into the tests.
-> - **Do not remove the pre-filled code**
-> - Want to quickly review some of the concepts you’ve been learning? Take a look at the Cheat Sheets.
-# Rock-Paper-Scissors-Game
+---
+
+## 📝 Author <br />
+Made with 
+❤️ by Siva <br/>
+📧 Reach me at: sivas393922@gmail.com <br/>
+⭐ Star this repo if you like it!
